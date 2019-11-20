@@ -1,0 +1,11 @@
+CREATE A NEW REPOSITORY 
+echo "# pyData" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Mirasele/pyData.git
+git push -u origin master
+
+PUSH TO EXISTING REPOSITORY
+git remote add origin https://github.com/Mirasele/pyData.git
+git push -u origin master
